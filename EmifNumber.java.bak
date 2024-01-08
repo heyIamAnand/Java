@@ -1,0 +1,49 @@
+class EmifNumber
+{
+    public static int prime(int n)
+	{
+		  int count=0;
+		for(int i=1;   i<=n; i++)
+		{
+			if (n%i==0)
+			{
+				count++;
+			}
+			
+		}
+		return count;
+	}
+
+	public static int reverse(int n)
+	{
+		int rev=0;
+		while(n!=0)
+		{
+			int rev=n%10;
+			rev=rev*10+last;
+			n=n/10
+		}
+		return rev;
+	}
+	public static void main(String[] args) 
+	{
+		int n=31;
+		int count=prime(n);
+		if (count==2)
+		{
+			int reverse=reverse(n);
+			int count1=prime(rev);
+			if (count1==2)
+			{
+				System.out.println(n+ "is a Emif_number");
+			}
+			
+			else
+			{
+			System.out.println(n+ "is not a Emif_number");
+			}
+		}
+			
+		
+	}
+}

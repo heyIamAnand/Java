@@ -21,7 +21,7 @@ class EmifNumber
 		{
 			int rev=n%10;
 			rev=rev*10+last;
-			n=n/10
+			n=n/10;
 		}
 		return rev;
 	}
